@@ -1,4 +1,6 @@
 package br.com.fescfafic.biblioteca.Model;
 
-public class HorarioDeFuncionamento {
+public interface IHorarioDeFuncionamento {
+    void abrir();
+    void fechar();
 }

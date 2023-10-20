@@ -1,2 +1,9 @@
-package br.com.fescfafic.biblioteca.Model;public class Cliente {
+package br.com.fescfafic.biblioteca.Model;
+
+public class Cliente {
+    String nome;
+
+    public Cliente(String nome) {
+        this.nome = nome;
+    }
 }
